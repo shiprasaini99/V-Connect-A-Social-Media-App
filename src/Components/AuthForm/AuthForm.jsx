@@ -15,7 +15,6 @@ const handleAuth=()=>{
     return;
   }
   navigate('/')
-  console.log(inputs);
 }
   return (
    <> <Box border={"1px solid gray"} borderRadius={4} padding={5}>
