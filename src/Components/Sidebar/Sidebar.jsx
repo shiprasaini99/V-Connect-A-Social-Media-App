@@ -1,8 +1,13 @@
 import React from 'react'
-import { Box, Flex, Link } from '@chakra-ui/react'
+import { Avatar, Box, Flex, Link, Tooltip } from '@chakra-ui/react'
 import { Link as RouterLink} from 'react-router-dom'
-import { InstagramLogo, InstagramMobileLogo } from '../../assets/constants'
+import { CreatePostLogo, InstagramLogo, InstagramMobileLogo, NotificationsLogo, SearchLogo } from '../../assets/constants'
+import SidebarItems from './SidebarItems';
+
 const Sidebar = () => {
+   
+
+
   return (
     <Box
     height={"100vh"}
@@ -24,6 +29,9 @@ const Sidebar = () => {
             cursor="pointer">
                 <InstagramMobileLogo />
             </Link>
+            <Flex direction={"column"} gap={5} cursor={"pointer"}>
+            <SidebarItems/>
+            </Flex>
         </Flex>
     </Box>
   )
