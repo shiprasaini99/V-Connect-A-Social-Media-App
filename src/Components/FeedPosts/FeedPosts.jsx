@@ -31,21 +31,25 @@ const FeedPosts = () => {
 
       <>
        <FeedPost 
-     img='/img1.png' 
-     avatar='/img1.png' 
-     username="asaprogrammer_"/>
+     img='/saini__shipra_____.jpg' 
+     avatar='/saini__shipra_____.jpg' 
+     username="saini__shipra_____"
+     caption="Sunrise ☀️ "/>
       <FeedPost 
-     img='/img2.png' 
-     avatar='/img2.png' 
-     username="josh"/>
+     img='/tarangsaini_.jpg' 
+     avatar='/tarangsaini_.jpg' 
+     username="tarangsaini_"
+     caption="WoW! Snow☃️"/>
       <FeedPost 
-     img='/img3.png' 
-     avatar='/img3.png' 
-     username="janedos"/>
+     img='/priyanshi_mandhoriya.jpg' 
+     avatar='/priyanshi_mandhoriya.jpg' 
+     username="priyanshi_mandhoriya"
+     caption="Homecoming ✈️🏡"/>
       <FeedPost 
-     img='/img4.png' 
-     avatar='/img4.png' 
-     username="john"/>
+     img='/anshii_mandhoriya.jpg' 
+     avatar='/anshii_mandhoriya.jpg' 
+     username="anshii_mandhoriya"
+     caption="Evening 🌃"/>
       </>
      )}
     </Container>

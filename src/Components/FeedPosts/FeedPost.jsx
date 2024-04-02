@@ -8,9 +8,9 @@ const FeedPost = (props) => {
     <>
       <PostHeader username={props.username}  avatar={props.avatar}/>
        <Box my={2} borderRadius={4} overflow={"hidden"}>
-        <Image src={props.img} alt={props.username}/>
+        <Image width={"full"} height={"full"} src={props.img} alt={props.username} />
        </Box>
-      <PostFooter username={props.username}/>
+      <PostFooter username={props.username} caption={props.caption}/>
     </>
   )
 }

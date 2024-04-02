@@ -33,7 +33,7 @@ const PostFooter = (props) => {
     <Text fontWeight={700} fontSize={"sm"}>
         {props.username}{" "}
         <Text as='span' fontWeight={400}>
-            Feeling Good
+            {props.caption}
         </Text>
     </Text>
 
