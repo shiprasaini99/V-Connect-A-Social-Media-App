@@ -7,7 +7,7 @@ const Search = () => {
   return (
     <Tooltip
 			hasArrow
-			label={"Home"}
+			label={"Search"}
 			placement='right'
 			ml={1}
 			openDelay={500}
